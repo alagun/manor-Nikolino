@@ -1,0 +1,115 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+ul[class],
+ol[class] {
+  padding: 0;
+}
+h2 {
+  font-weight: 400;
+}
+h5 {
+  font-size: 14px;
+  line-height: 18px;
+  text-align: center;
+  /* -ms-word-wrap: break-word; */
+  word-wrap: break-word;
+}
+.wrapper {
+  max-width: 1140px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+/* .container {
+  margin: 0 auto;
+  padding: 0 20px 100px;
+} */
+
+.customer {
+}
+.display__overlay {
+}
+.section__header {
+  background: #fff;
+  color: #015048;
+  display: block;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  position: relative;
+  text-align: center !important;
+}
+.section__header-title {
+  background: #fff;
+  display: inline-block;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  position: relative;
+  z-index: 3;
+  font-size: 5em;
+}
+.section__header-line {
+  width: 90%;
+  height: 2px;
+  background: #eaeaea;
+  position: absolute;
+  top: 50%;
+  left: 5%;
+  z-index: 2;
+}
+.customer__section__content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.customer__section__content__feedback {
+  min-height: 520px;
+  width: 300px;
+  border: 2px solid #eaeaea;
+}
+.customer__section__content__feedback-img {
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+.customer__section__content__feedback-img-wrapper {
+  height: 81px;
+  width: 81px;
+  position: absolute;
+  top: -40px;
+  border: 3px solid #fff;
+  border-radius: 50%;
+  /* border-radius: 60% 40%; */
+  background-clip: padding-box;
+  box-shadow: 0px 0px 0px 1px #015048;
+  background-color: #fafefe;
+  overflow: hidden;
+}
+.customer__section__content__feedback-img-wrapper-photo {
+  height: auto;
+  max-width: 100%;
+  border: 0;
+  /* vertical-align: center; */
+}
+.customer__section__content__feedback-text {
+  padding: 0 35px;
+}
+.customer__section__content__feedback-text-name {
+  margin-top: 55px;
+  margin-bottom: 5px;
+  color: #015048;
+}
+.customer__section__content__feedback-text-event {
+  text-align: center;
+  margin: 0%;
+  color: orange;
+}
+.customer__section__content__feedback-text-feedback {
+  font-style: italic;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 0;
+}
