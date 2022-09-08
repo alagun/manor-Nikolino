@@ -201,9 +201,11 @@ body {
   -o-transition: all 0.5s ease;
 }
 .service__container__wrapper__block:hover {
+  box-shadow: 0px 0px 46px 8px rgba(34, 60, 80, 0.14);
   -webkit-box-shadow: 0px 0px 46px 8px rgba(34, 60, 80, 0.14);
   -moz-box-shadow: 0px 0px 46px 8px rgba(34, 60, 80, 0.14);
-  box-shadow: 0px 0px 46px 8px rgba(34, 60, 80, 0.14);
+  -ms-box-shadow: 0px 0px 46px 8px rgba(34, 60, 80, 0.14);
+  -o-box-shadow: 0px 0px 46px 8px rgba(34, 60, 80, 0.14);
   background-color: #fafefe;
 }
 .service__container__wrapper__block-img {
@@ -383,3 +385,46 @@ body {
   margin-bottom: 0;
 }
 /* end section customers */
+
+/* start section ribbon */
+
+.ribbon {
+  background-color: #015048;
+}
+.ribbon__wrapper {
+  padding: 60px 0;
+}
+.ribbon__icon-link {
+  display: block;
+}
+
+.ribbon__icon-wrapper {
+  position: relative;
+  width: 75px;
+  height: 75px;
+  border: 5px solid rgb(212, 173, 87);
+  border-radius: 50%;
+  margin: 0 auto;
+  transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+}
+.ribbon__icon-wrapper:hover {
+  opacity: 0.8;
+}
+.ribbon__icon-wrapper-center {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+}
+
+/* end section ribbon */
