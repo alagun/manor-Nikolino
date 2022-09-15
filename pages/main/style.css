@@ -418,7 +418,7 @@ section:last-child {
 }
 .customer__section__content__feedback {
   min-height: 520px;
-  width: 300px;
+  width: 31%;
   border: 2px solid #eaeaea;
 }
 .customer__section__content__feedback-img {
@@ -447,6 +447,8 @@ section:last-child {
 }
 .customer__section__content__feedback-text {
   padding: 0 35px;
+  max-height: 600px;
+  overflow: hidden;
 }
 .customer__section__content__feedback-text-name {
   margin-top: 55px;
@@ -463,6 +465,7 @@ section:last-child {
   text-align: center;
   margin-top: 20px;
   margin-bottom: 0;
+  text-overflow: ellipsis;
 }
 /* end section customers */
 
