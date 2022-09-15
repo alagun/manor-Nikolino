@@ -74,10 +74,13 @@
         <!-- start section story-->
         <section id="story" class="story" role="region">
           <div class="container story__container">
-            <h2 class="inner-title ff-gelassio">Об усадьбе</h2>
-            <p class="inner-subtitle stoty__container-subtitle">
-              Противоядие от цивилизации...
-            </p>
+            <div class="container__title">
+              <h2 class="inner-title ff-gelassio">Об усадьбе</h2>
+              <div class="inner-title-line"></div>
+              <p class="inner-subtitle stoty__container-subtitle">
+                Противоядие от цивилизации...
+              </p>
+            </div>
             <div class="story__container__wrapper">
               <div class="story__container__wrapper-left-side">
                 <div class="story__block-text">
@@ -104,20 +107,23 @@
         <!-- start section service -->
         <section id="service" class="service" role="region">
           <div class="container service__container">
-            <h2 class="inner-title ff-gelassio">Наши услуги</h2>
-            <p class="inner-subtitle service__container-subtitle">
-              Правильное место для хорошего отдыха для тех, кто ценит уют,
-              комфорт и внимание.
-            </p>
+            <div class="container__title">
+              <h2 class="inner-title ff-gelassio">Наши услуги</h2>
+              <div class="inner-title-line"></div>
+              <p class="inner-subtitle service__container-subtitle">
+                Правильное место для хорошего отдыха для тех, кто ценит уют,
+                комфорт и внимание.
+              </p>
+            </div>
             <div class="service__container__wrapper">
-              <div class="service__container__wrapper__block">
+              <div class="service__container__wrapper__block card">
                 <div class="service__container__wrapper__block-img">
                   <img src="../../assets/icons/house.png" alt="" />
                 </div>
                 <h3 class="service__container__wrapper__block-title ff-gelassio">Дом</h2>
                 <p class="service__container__wrapper__block-text">вместительность 15 спальных мест</p>
               </div>
-              <div class="service__container__wrapper__block">
+              <div class="service__container__wrapper__block card">
                 <div class="service__container__wrapper__block-img">
                   <img src="../../assets/icons/alcove.png" alt="" />
                 </div>
@@ -126,14 +132,14 @@
                 </h3>
                 <p class="service__container__wrapper__block-text">вместительность до 20 человек</p>
               </div>
-              <div class="service__container__wrapper__block">
+              <div class="service__container__wrapper__block card">
                 <div class="service__container__wrapper__block-img">
                   <img src="../../assets/icons/bath.png" alt="" />
                 </div>
                 <h3 class="service__container__wrapper__block-title ff-gelassio">Баня</h3>
                 <p class="service__container__wrapper__block-text">парная на 8-10 человек</p>
               </div>
-              <div class="service__container__wrapper__block">
+              <div class="service__container__wrapper__block card">
                 <div class="service__container__wrapper__block-img">
                   <img src="../../assets/icons/event.png" alt="" />
                 </div>
@@ -147,100 +153,109 @@
         </section>
         <!-- end section service-->
         <!-- start section slider -->
-        <section class="slider">
+        <section id="slider" class="slider" role="region">
           <div class="container slider__container">
-            <h2 class="inner-title ff-gelassio">Фотогалерея</h2>
-            <p class="inner-subtitle slider__container-subtitle">
-              Фотография - это Душа, сохраненная в пикселях... 
-              <br>
-              Красиво, нежно, эмоционально... 
-            </p>
-          </div>
-          <div class="sliders">
-            <div class="sliders__block">
-              <div class="sliders__block__wrapper">
-                <img src="../../assets/images/1.jpg" alt="">
-                <p class="slider__block__wrapper-title ff-gelassio">Анна и Роман</p>
-                <span class="slider__block__wrapper-event">Свадьба</span>
-                <span class="slider__block__wrapper-star">5</span>
-                <p class="slider__block__wrapper-about">подробнее...</p>
-                <p class="slider__block__wrapper-other">можно
-                  <span>удалить</span>
-                </p>
-              </div>
+            <div class="container__title">
+              <h2 class="inner-title ff-gelassio">Фотогалерея</h2>
+              <div class="inner-title-line"></div>
+              <p class="inner-subtitle slider__container-subtitle">
+                Фотография - это Душа, сохраненная в пикселях... 
+                <br>
+                Красиво, нежно, эмоционально... 
+              </p>
             </div>
-            <div class="sliders__block">
-              <div class="sliders__block__wrapper">
-                <img src="../../assets/images/2.jpg" alt="">
-                <p class="slider__block__wrapper-title ff-gelassio">Анна и Роман</p>
-                <span class="slider__block__wrapper-event">Свадьба</span>
-                <span class="slider__block__wrapper-star">5</span>
-                <p class="slider__block__wrapper-about">подробнее...</p>
-                <p class="slider__block__wrapper-other">можно
-                  <span>удалить</span>
-                </p>
+            <div class="sliders">
+              <div class="sliders__block card">
+                <div class="sliders__block__wrapper">
+                  <img src="../../assets/images/1.jpg" alt="">
+                  <p class="slider__block__wrapper-title ff-gelassio">Анна и Роман</p>
+                  <span class="slider__block__wrapper-event">Свадьба</span>
+                  <span class="slider__block__wrapper-star">5</span>
+                  <p class="slider__block__wrapper-about">подробнее...</p>
+                  <p class="slider__block__wrapper-other">можно
+                    <span>удалить</span>
+                  </p>
+                </div>
               </div>
+              <div class="sliders__block card">
+                <div class="sliders__block__wrapper">
+                  <img src="../../assets/images/2.jpg" alt="">
+                  <p class="slider__block__wrapper-title ff-gelassio">Анна и Роман</p>
+                  <span class="slider__block__wrapper-event">Свадьба</span>
+                  <span class="slider__block__wrapper-star">5</span>
+                  <p class="slider__block__wrapper-about">подробнее...</p>
+                  <p class="slider__block__wrapper-other">можно
+                    <span>удалить</span>
+                  </p>
+                </div>
+              </div>
+              <div class="sliders__block card">
+                <div class="sliders__block__wrapper">
+                  <img src="../../assets/images/2.jpg" alt="">
+                  <p class="slider__block__wrapper-title ff-gelassio">Анна и Роман</p>
+                  <span class="slider__block__wrapper-event">Свадьба</span>
+                  <span class="slider__block__wrapper-star">5</span>
+                  <p class="slider__block__wrapper-about">подробнее...</p>
+                  <p class="slider__block__wrapper-other">можно
+                    <span>удалить</span>
+                  </p>
+               </div>
+              </div>
+              <div class="sliders__block card">
+               <div class="sliders__block__wrapper">
+                  <img src="../../assets/images/2.jpg" alt="">
+                  <p class="slider__block__wrapper-title ff-gelassio">Анна и Роман</p>
+                  <span class="slider__block__wrapper-event">Свадьба</span>
+                  <span class="slider__block__wrapper-star">5</span>
+                  <p class="slider__block__wrapper-about">подробнее...</p>
+                  <p class="slider__block__wrapper-other">можно
+                    <span>удалить</span>
+                  </p>
+                </div>
+              </div>
+              <!-- <div class="sliders__block">
+                <div class="sliders__block__wrapper">
+                  <img src="../../assets/images/2.jpg" alt="">
+                  <p class="slider__block__wrapper-title ff-gelassio">Анна и Роман</p>
+                  <span class="slider__block__wrapper-event">Свадьба</span>
+                  <span class="slider__block__wrapper-star">5</span>
+                  <p class="slider__block__wrapper-about">подробнее...</p>
+                  <p class="slider__block__wrapper-other">можно
+                    <span>удалить</span>
+                  </p>
+                </div>
+              </div>
+              <div class="sliders__block">
+                <div class="sliders__block__wrapper">
+                  <img src="../../assets/images/2.jpg" alt="">
+                  <p class="slider__block__wrapper-title ff-gelassio">Анна и Роман</p>
+                  <span class="slider__block__wrapper-event">Свадьба</span>
+                  <span class="slider__block__wrapper-star">5</span>
+                  <p class="slider__block__wrapper-about">подробнее...</p>
+                  <p class="slider__block__wrapper-other">можно
+                    <span>удалить</span>
+                  </p>
+                </div>
+              </div>   -->
             </div>
-            <div class="sliders__block">
-              <div class="sliders__block__wrapper">
-                <img src="../../assets/images/2.jpg" alt="">
-                <p class="slider__block__wrapper-title ff-gelassio">Анна и Роман</p>
-                <span class="slider__block__wrapper-event">Свадьба</span>
-                <span class="slider__block__wrapper-star">5</span>
-                <p class="slider__block__wrapper-about">подробнее...</p>
-                <p class="slider__block__wrapper-other">можно
-                  <span>удалить</span>
-                </p>
-              </div>
-            </div>
-            <div class="sliders__block">
-              <div class="sliders__block__wrapper">
-                <img src="../../assets/images/2.jpg" alt="">
-                <p class="slider__block__wrapper-title ff-gelassio">Анна и Роман</p>
-                <span class="slider__block__wrapper-event">Свадьба</span>
-                <span class="slider__block__wrapper-star">5</span>
-                <p class="slider__block__wrapper-about">подробнее...</p>
-                <p class="slider__block__wrapper-other">можно
-                  <span>удалить</span>
-                </p>
-              </div>
-            </div>
-            <!-- <div class="sliders__block">
-              <div class="sliders__block__wrapper">
-                <img src="../../assets/images/2.jpg" alt="">
-                <p class="slider__block__wrapper-title ff-gelassio">Анна и Роман</p>
-                <span class="slider__block__wrapper-event">Свадьба</span>
-                <span class="slider__block__wrapper-star">5</span>
-                <p class="slider__block__wrapper-about">подробнее...</p>
-                <p class="slider__block__wrapper-other">можно
-                  <span>удалить</span>
-                </p>
-              </div>
-            </div>
-            <div class="sliders__block">
-              <div class="sliders__block__wrapper">
-                <img src="../../assets/images/2.jpg" alt="">
-                <p class="slider__block__wrapper-title ff-gelassio">Анна и Роман</p>
-                <span class="slider__block__wrapper-event">Свадьба</span>
-                <span class="slider__block__wrapper-star">5</span>
-                <p class="slider__block__wrapper-about">подробнее...</p>
-                <p class="slider__block__wrapper-other">можно
-                  <span>удалить</span>
-                </p>
-              </div>
-            </div> -->
           </div>
         </section>
         <!-- end section slider -->
         <!-- start section customers --> 
-        <section id="customers" class="customer" role="region">
-          <div class="display__overlay">
-            <div class="section__header">
-              <h2 class="section__header-title">Отзывы клиентов</h2>
-              <div class="section__header-line"></div>
+        <section id="customers" class="customers" role="region">
+          <div class="container customers__container">
+            <div class="container__title">
+              <h2 class="inner-title ff-gelassio">Отзывы клиентов</h2>
+              <div class="inner-title-line"></div>
+              <p class="inner-subtitle customers__container-subtitle">
+                Самое ценное, что есть в нашей жизни, человеческая доброта -
+                <br>
+                драгоценный подарок, не сравнимый ни с чем.
+              </p>
             </div>
+          <div class="display__overlay">
             <div class="customer__section__content">
-              <div class="customer__section__content__feedback">
+              <div class="customer__section__content__feedback card">
                 <div class="customer__section__content__feedback-img">
                   <div class="customer__section__content__feedback-img-wrapper">
                     <img
@@ -270,8 +285,8 @@
                   </p>
                 </div>
               </div>
-              <div class="customer__section__content__feedback">2</div>
-              <div class="customer__section__content__feedback">3</div>
+              <div class="customer__section__content__feedback card">2</div>
+              <div class="customer__section__content__feedback card">3</div>
             </div>
           </div>
         </section>
@@ -305,7 +320,6 @@
           </div>
         </section>
         <!-- end section contacts -->
-        
       </main>
       <footer></footer>
     </div>
