@@ -6,7 +6,9 @@
   box-sizing: border-box;
   margin: 0;
 }
-
+html {
+  scroll-behavior: smooth;
+}
 ul[class],
 ol[class] {
   padding: 0;
@@ -37,10 +39,11 @@ body {
   font-weight: 400;
   font-size: 18px;
   line-height: 30px;
+  /* scroll-behavior: smooth; */
 }
 section {
-  padding-top: 80px;
-  padding-bottom: 30px;
+  padding-top: 60px;
+  padding-bottom: 50px;
 }
 section:last-child {
   padding-top: 30px;
@@ -58,6 +61,7 @@ section:last-child {
   line-height: 24px;
   color: #fafefe;
 }
+
 .wrapper,
 .header__container {
   max-width: 1140px;
@@ -69,7 +73,7 @@ section:last-child {
   font-weight: 500;
 }
 .container__title {
-  background: #fff;
+  /* background: #fff; */
   /* color: #015048; */
   display: block;
   padding-top: 1rem;
@@ -90,11 +94,13 @@ section:last-child {
   position: relative;
   z-index: 3;
 }
-
+.bg-wing {
+  background: #f7f8fa url(../../assets/images/wing.png) repeat;
+}
 .inner-title-line {
   width: 90%;
   height: 2px;
-  background: #eaeaea;
+  background: #c3c3c3;
   position: absolute;
   top: 20%;
   left: 5%;
@@ -115,6 +121,7 @@ section:last-child {
   border-radius: 10px;
   text-align: center;
   cursor: pointer;
+  background-color: #ffffff;
   transition: all 0.5s ease;
   -webkit-transition: all 0.5s ease;
   -moz-transition: all 0.5s ease;
@@ -282,9 +289,12 @@ section:last-child {
 }
 
 .service__container__wrapper__block {
-  width: 270px;
+  width: 23%;
 }
 .service__container__wrapper__block-img {
+  width: 90px;
+  margin: 0 auto;
+  padding-top: 40px;
 }
 .service__container__wrapper__block-title {
   margin: 35px 0 10px;
